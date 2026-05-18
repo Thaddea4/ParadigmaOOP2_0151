@@ -8,3 +8,11 @@ protected:
 public:
     virtual void potongAdmin() = 0;
 };
+
+class RekeningSyariah : public RekeningBank {
+public:
+
+    void potongAdmin() {
+        cout << "Rekening Syariah tidak dikenakan biaya admin" << endl;
+    }
+};

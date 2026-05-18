@@ -2,4 +2,4 @@
 using namespace std;
 
 class remoteLampu {
-
+    private:

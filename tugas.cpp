@@ -16,3 +16,12 @@ public:
         cout << "Rekening Syariah tidak dikenakan biaya admin" << endl;
     }
 };
+
+class RekeningKonvensional : public RekeningBank {
+public:
+
+    void potongAdmin() {
+        cout << "Rekening Konvensional terkena biaya admin Rp "
+             << biayaAdmin << endl;
+    }
+};
